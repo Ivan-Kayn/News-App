@@ -1,18 +1,26 @@
 const initialState = {
-    items: [],
+    articles: [],
     loading: false,
     error: false,
+
 }
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case 'ITEMS_LOADED':
+        case 'HELLO_WORLD':
             return {
                 ...state,
-                items: action.payload,
+                message: action.payload,
+            };
+        case 'ARTICLES_LOADED':
+            return {
+                ...state,
+                articles: action.payload,
                 loading: false,
                 error: false,
+
             };
+
         default:
             return state;
     }

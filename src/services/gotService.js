@@ -1,45 +1,54 @@
 export default class GotService {
     constructor() {
-        this._apiBase = 'https://www.anapioficeandfire.com/api';
+        this._apiBase = 'https://test.spaceflightnewsapi.net/api/v2/';
     }
 
     getResource = async (url) => {
-        const res = await fetch(`${this._apiBase}${url}`);
-    
+        const res = await fetch(`${this._apiBase}${url}`,
+            {
+                "method": "GET",
+                "headers": {
+                    "accept": "application/json",
+                }
+            }
+        );
+
         if (!res.ok) {
-          throw new Error(`Could not fetch ${url}` +
-            `, received ${res.status}`);
+            throw new Error(`Could not fetch ${url}` +
+                `, received ${res.status}`);
         }
         return await res.json();
     }
 
-    getAllBooks = async () => {
-        const res = await this.getResource(`/books/`);
-        return res.map(this._transformBook);
+    getAllArticles = async (start, limit) => {
+        const res = await this.getResource(`/articles?_limit=${limit}&_start=${start}`);
+        return(res.map(obj => {
+            return this._transformArticle(obj);
+        }));
     }
-    
-    getBook = async (id) => {
-        const book = await this.getResource(`/books/${id}/`);
-        return this._transformBook(book);
+
+    getArticle = async (id) => {
+        const book = await this.getResource(`/articles/${id}/`);
+        return this._transformArticle(book);
     }
-    
-    getAllCharacters = async () => {
-        const res = await this.getResource(`/characters?page=5&pageSize=10`);
+
+    getAllBlogs = async () => {
+        const res = await this.getResource(`/blogs?page=5&pageSize=10`);
         return res.map(this._transformCharacter);
     }
-    
-    getCharacter = async (id) => {
-        const character = await this.getResource(`/characters/${id}`);
+
+    getBlog = async (id) => {
+        const character = await this.getResource(`/blogs/${id}`);
         return this._transformCharacter(character);
     }
-    
-    getAllHouses = async () => {
-        const res = await this.getResource(`/houses/`);
+
+    getAllReports = async () => {
+        const res = await this.getResource(`/reports/`);
         return res.map(this._transformHouse);
     }
-    
-    getHouse = async (id) => {
-        const house = await this.getResource(`/houses/${id}/`);
+
+    getReport = async (id) => {
+        const house = await this.getResource(`/reports/${id}/`);
         return this._transformHouse(house);
     }
 
@@ -62,7 +71,7 @@ export default class GotService {
             name: this.isSet(char.name),
             gender: this.isSet(char.gender),
             born: this.isSet(char.born),
-            died: this.isSet(char.died), 
+            died: this.isSet(char.died),
             culture: this.isSet(char.culture)
         };
     }
@@ -77,14 +86,20 @@ export default class GotService {
             ancestralWeapons: this.isSet(house.ancestralWeapons)
         };
     }
-    
-    _transformBook = (book) => {
+
+    _transformArticle = (article) => {
         return {
-            id: this._extractId(book),
-            name: this.isSet(book.name),
-            numberOfPages: this.isSet(book.numberOfPages),
-            publisher: this.isSet(book.publisher),
-            released: this.isSet(book.released)
+            id: this.isSet(article.id),
+            title: this.isSet(article.title),
+            url: this.isSet(article.url),
+            imageUrl: this.isSet(article.imageUrl),
+            newsSite: this.isSet(article.newsSite),
+            summary: this.isSet(article.summary),
+            publishedAt: this.isSet(article.publishedAt),
+            updatedAt: this.isSet(article.updatedAt),
+            featured: this.isSet(article.featured),
+            launches: this.isSet(article.launches),
+            events: this.isSet(article.events),
         };
     }
 }

@@ -1,0 +1,56 @@
+//variable overrides
+$sidebar-bg-color: #1d1d1d !default;
+$sidebar-color: #adadad !default;
+$sidebar-width: auto !default;
+$sidebar-collapsed-width: 80px !default;
+$highlight-color: #d8d8d8 !default;
+$submenu-bg-color: transparent !default;
+$submenu-bg-color-collapsed: #2b2b2b !default;
+$icon-bg-color: #2b2b2b !default;
+$icon-size: 35px !default;
+$breakpoint-xs: 480px !default;
+$breakpoint-sm: 576px !default;
+$breakpoint-md: 768px !default;
+$breakpoint-lg: 992px !default;
+$breakpoint-xl: 1200px !default;
+
+.sidebar__container{
+  height: 100vh;
+}
+.sidebar__header__text{
+  padding: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.sidebar-btn-wrapper {
+
+
+  .sidebar-btn {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    background: rgba(145, 145, 145, 0.2);
+    padding: 10px;
+    border-radius: 50px;
+
+    &:hover{
+      color: rgba(255, 255, 255, 1);
+    }
+
+    span {
+      margin-left: 0;
+      margin-right: 5px;
+    }
+  }
+}
+
+
+@import '~react-pro-sidebar/dist/scss/styles.scss';
+

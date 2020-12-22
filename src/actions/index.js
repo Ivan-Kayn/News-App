@@ -1,10 +1,11 @@
-const itemsLoaded = (newMenu) => {
+const articlesLoaded = (newArticles) => {
     return {
-        type: 'ITEMS_LOADED',
-        payload: newMenu
+        type: 'ARTICLES_LOADED',
+        payload: newArticles
     };
 };
 
 export {
-    itemsLoaded
+    articlesLoaded,
+
 };
