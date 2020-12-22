@@ -1,0 +1,50 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"4079569b-87de-4efe-bdc5-86872f7e7a0d\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.eslintcache\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/news-app.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/package-lock.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/actions/index.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/reducers/index.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/services/gotService.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/store.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/package.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/package.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/App.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/App.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/App.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/App.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/App.test.js\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/index.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/index.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/logo.svg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/reportWebVitals.js\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/setupTests.js\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1lmwLElJCRWNCGmulAnYysPbAtM\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"yarn\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"4079569b-87de-4efe-bdc5-86872f7e7a0d\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1608215528515</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1608215528515</updated>\r\n      <workItem from=\"1608215529609\" duration=\"4210000\" />\r\n      <workItem from=\"1608321141215\" duration=\"28000\" />\r\n      <workItem from=\"1608321726728\" duration=\"2269000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"690\" y=\"287\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog\" timestamp=\"1608216880206\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1080\" />\r\n    </state>\r\n    <state x=\"690\" y=\"287\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080\" timestamp=\"1608216880206\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 14f3c698ba4c82ed327fe9948656fe2ce2283ad6)
++++ .idea/workspace.xml	(date 1608659078742)
+@@ -10,29 +10,7 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="4079569b-87de-4efe-bdc5-86872f7e7a0d" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/news-app.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/services/gotService.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+-    </list>
++    <list default="true" id="4079569b-87de-4efe-bdc5-86872f7e7a0d" name="Default Changelist" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -49,6 +27,9 @@
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="ProjectId" id="1lmwLElJCRWNCGmulAnYysPbAtM" />
++  <component name="ProjectLevelVcsManager">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
