@@ -3,7 +3,7 @@ import 'react-pro-sidebar/dist/css/styles.css';
 import React from "react";
 import "./Sidebar.scss";
 import bgImage from "./bg.jpg";
-import {FaFileAlt, FaAlignJustify, FaRegLaughWink, FaHeart} from 'react-icons/fa';
+import {FaFileAlt, FaAlignJustify, FaBlog, FaHome} from 'react-icons/fa';
 import {Link} from "react-router-dom";
 
 export const Sidebar = () => {
@@ -23,20 +23,13 @@ export const Sidebar = () => {
 
                 <SidebarContent>
                     <Menu iconShape="circle">
-                        <MenuItem icon={<FaAlignJustify/>}> <Link to="/home"> Home </Link> </MenuItem>
+                        <MenuItem icon={<FaHome/>}> <Link to="/home"> Home </Link> </MenuItem>
                     </Menu>
                     <Menu iconShape="circle">
                         <MenuItem icon={<FaAlignJustify/>}> <Link to="/articles"> News </Link> </MenuItem>
-                        <MenuItem icon={<FaAlignJustify/>}> <Link to="/blog"> Blog </Link> </MenuItem>
+                        <MenuItem icon={<FaBlog/>}> <Link to="/blogs"> Blogs </Link> </MenuItem>
+                        <MenuItem icon={<FaFileAlt/>}> <Link to="/reports"> Reports </Link> </MenuItem>
 
-                        <SubMenu
-                            title='Reports'
-                            icon={<FaFileAlt/>}
-                        >
-                            <MenuItem> 1</MenuItem>
-                            <MenuItem> 2</MenuItem>
-                            <MenuItem> 3</MenuItem>
-                        </SubMenu>
                     </Menu>
                 </SidebarContent>
 

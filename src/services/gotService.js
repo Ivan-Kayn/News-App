@@ -28,23 +28,23 @@ export default class GotService {
     }
 
     getArticle = async (id) => {
-        const book = await this.getResource(`/articles/${id}/`);
-        return this._transformArticle(book);
+        const article = await this.getResource(`/articles/${id}/`);
+        return this._transformArticle(article);
     }
 
     getAllBlogs = async () => {
-        const res = await this.getResource(`/blogs?page=5&pageSize=10`);
-        return res.map(this._transformCharacter);
+        const res = await this.getResource(`/blogs?_limit=5`);
+        return res.map(this._transformBlogs);
     }
 
     getBlog = async (id) => {
         const character = await this.getResource(`/blogs/${id}`);
-        return this._transformCharacter(character);
+        return this._transformBlogs(character);
     }
 
     getAllReports = async () => {
-        const res = await this.getResource(`/reports/`);
-        return res.map(this._transformHouse);
+        const res = await this.getResource(`/reports?_limit=18`);
+        return res.map(this._transformReports);
     }
 
     getReport = async (id) => {
@@ -65,25 +65,29 @@ export default class GotService {
         return item.url.match(idRegExp)[1];
     }
 
-    _transformCharacter = (char) => {
+    _transformBlogs = (blog) => {
         return {
-            id: this._extractId(char),
-            name: this.isSet(char.name),
-            gender: this.isSet(char.gender),
-            born: this.isSet(char.born),
-            died: this.isSet(char.died),
-            culture: this.isSet(char.culture)
+            id: this.isSet(blog.id),
+            title: this.isSet(blog.title),
+            url: this.isSet(blog.url),
+            imageUrl: this.isSet(blog.imageUrl),
+            newsSite: this.isSet(blog.newsSite),
+            summary: this.isSet(blog.summary),
+            publishedAt: this.isSet(blog.publishedAt),
+            updatedAt: this.isSet(blog.updatedAt),
         };
     }
 
-    _transformHouse = (house) => {
+    _transformReports = (report) => {
         return {
-            id: this._extractId(house),
-            name: this.isSet(house.name),
-            region: this.isSet(house.region),
-            words: this.isSet(house.words),
-            titles: this.isSet(house.titles),
-            ancestralWeapons: this.isSet(house.ancestralWeapons)
+            id: this.isSet(report.id),
+            title: this.isSet(report.title),
+            url: this.isSet(report.url),
+            imageUrl: this.isSet(report.imageUrl),
+            newsSite: this.isSet(report.newsSite),
+            summary: this.isSet(report.summary),
+            publishedAt: this.isSet(report.publishedAt),
+            updatedAt: this.isSet(report.updatedAt),
         };
     }
 

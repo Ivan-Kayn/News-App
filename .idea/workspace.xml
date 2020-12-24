@@ -14,27 +14,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4079569b-87de-4efe-bdc5-86872f7e7a0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ArticleItem/ArticleItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ArticleItem/ArticleItem.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sidebar/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/Articles/Articles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/Articles/Articles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/Blogs/Blogs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/Reports/Reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BlogItem/BlogItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BlogItem/BlogItem.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ReportItem/ReportItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ReportItem/ReportItem.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Spinner/Spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Spinner/Spinner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Blogs/Blogs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Reports/Reports.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Articles/Articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Articles/Articles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Blogs/Blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Blogs/Blogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Reports/Reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Reports/Reports.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/gotService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/gotService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +71,7 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -98,6 +97,9 @@
       <workItem from="1608536188420" duration="11725000" />
       <workItem from="1608571107968" duration="7448000" />
       <workItem from="1608656628326" duration="2078000" />
+      <workItem from="1608674854852" duration="69000" />
+      <workItem from="1608725690780" duration="15888000" />
+      <workItem from="1608822687352" duration="2905000" />
     </task>
     <servers />
   </component>
@@ -129,13 +131,21 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608489911512" />
-    <state x="616" y="250" key="run.anything.popup" timestamp="1608574534886">
+    <state x="0" y="0" width="1669" height="916" key="dock-window-1" timestamp="1608739830318">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608574534886" />
-    <state x="107" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1608376897018">
+    <state x="0" y="0" width="1669" height="916" key="dock-window-1/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608739830318" />
+    <state x="667" y="139" width="585" height="801" key="find.popup" timestamp="1608740463728">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="107" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608376897018" />
+    <state x="667" y="139" width="585" height="801" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608740463728" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1608661867479">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608661867479" />
+    <state x="107" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1608740364639">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="107" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608740364639" />
   </component>
 </project>

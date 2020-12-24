@@ -1,5 +1,7 @@
 const initialState = {
     articles: [],
+    blogs: [],
+    reports: [],
     loading: false,
     error: false,
 
@@ -16,6 +18,22 @@ const reducer = (state = initialState, action) => {
             return {
                 ...state,
                 articles: action.payload,
+                loading: false,
+                error: false,
+
+            };
+        case 'BLOGS_LOADED':
+            return {
+                ...state,
+                blogs: action.payload,
+                loading: false,
+                error: false,
+
+            };
+        case 'REPORTS_LOADED':
+            return {
+                ...state,
+                reports: action.payload,
                 loading: false,
                 error: false,
 
